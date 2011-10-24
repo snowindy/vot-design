@@ -1,0 +1,117 @@
+@import url('reset.css'); 
+@import url('type.css');
+
+body {
+
+}
+div#header {
+    background: url('../img/img_02.jpg') repeat-x;
+    background-color: #ffffff;
+    margin: auto;
+    height: 93px;
+    width: 9000px;
+    position: fixed; 
+}
+
+/*
+.logo-dimensions{
+    width: 200px;
+    height: 93px;
+}
+*/
+.logo-container{
+    position: fixed; 
+    top: 0px; 
+    left: 0px;
+}
+.logo-container a{
+    text-decoration: none;
+}
+
+div#vline{
+
+    position: fixed; 
+    top: 40px; 
+    left: 495px;
+}
+div#menu{
+
+    position: fixed; 
+    top: 60px; 
+    left: 495px;
+}
+div#social{
+
+    position: fixed; 
+    top: 52px; 
+    right: 10px;
+}
+
+table {margin: auto;
+}
+
+
+div#link-next{float: right;
+              width: 140px;
+              margin: 100px 0 0 165px;
+              height: 32px;
+              background: url('../img/img_06_2.png') no-repeat;
+}
+
+
+p#social{
+    float: left;
+    width: 400px;
+}
+
+
+div#content{
+    padding: 140px 0 90px;
+
+}
+
+p#action-bar a:before {
+    content: '| ';
+}
+
+p#action-bar a[title="About"]:after {
+    content: ' |';
+}
+p#action-bar-black a:before {
+    content: '| ';
+}
+ul{
+    padding-top: 10px;
+}
+p#action-bar-black a[title="Blog"]:after {
+    content: ' |';
+}
+div#footer {
+    border-top: 10px solid #ffffff;
+    background: none repeat-x scroll center center #000000;
+    bottom: 0;
+    height: 25px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.content-cell{
+    width: 400px;
+    
+    border-right-style: solid; 
+    border-right-width: 1px;
+    padding-left: 130px;
+    padding-right: 130px;
+    vertical-align: top;
+}
+.has-text{
+    padding-top: 15px;
+}
+.no-padding{
+    padding: 0;
+}
+.main-container{
+    width: 2300px;
+    border: 0;
+}
