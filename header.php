@@ -43,7 +43,7 @@
             <p id="action-bar-black">
                 <a href="/#home" title="Студия">Студия</a>
                 <a href="/#service" title="Услуги">Услуги</a>
-                <a href="/#contact" title="Контакты">Контакты</a>
+                <a href="/#contacts" title="Контакты">Контакты</a>
                 <a href="/#portfolio" title="Портфолио">Портолио</a>
             </p>
         </div>
