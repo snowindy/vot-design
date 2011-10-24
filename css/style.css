@@ -2,7 +2,7 @@
 @import url('type.css');
 
 body {
-
+    overflow: hidden;
 }
 div#header {
     background: url('../img/img_02.jpg') repeat-x;
@@ -47,15 +47,16 @@ div#social{
     right: 10px;
 }
 
-table {margin: auto;
+.slide-nav{
+    height:32px;
+    width:70px;
+    position:fixed;
+    top:100px;
+    cursor: pointer;
 }
-
-
-div#link-next{float: right;
-              width: 140px;
-              margin: 100px 0 0 165px;
-              height: 32px;
-              background: url('../img/img_06_2.png') no-repeat;
+.next-slide{
+    right:75px;
+    background: url('../img/img_06_2.png') no-repeat;
 }
 
 
@@ -98,7 +99,7 @@ div#footer {
 
 .content-cell{
     width: 400px;
-    
+
     border-right-style: solid; 
     border-right-width: 1px;
     padding-left: 130px;
@@ -114,4 +115,5 @@ div#footer {
 .main-container{
     width: 2300px;
     border: 0;
+    margin: auto;
 }

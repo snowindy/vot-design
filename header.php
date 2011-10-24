@@ -59,7 +59,5 @@
 
     </div>
 
-    <div id="link-next">
-
-    </div>
+    <div class="slide-nav next-slide"></div>
 

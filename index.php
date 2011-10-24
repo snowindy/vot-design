@@ -14,9 +14,9 @@ include("header.php");
             <td class="content-cell no-padding" ><a name="portfolio"></a></td>
         </tr>
         <tr>
-            <td class="content-cell"><a name="home"><h2>Дизайн-студия</h2></a></td>
-            <td class="content-cell"><a name="service"><h2>Услуги</h2></a></td>
-            <td class="content-cell"><a name="contacts"><h2>Контакты</h2></a></td>
+            <td class="content-cell"><h2>Дизайн-студия</h2></td>
+            <td class="content-cell"><h2>Услуги</h2></td>
+            <td class="content-cell"><h2>Контакты</h2></td>
             <td class="content-cell"><h2><a href="portfolio.php" title="Portfolio">Портфолио</a></h2></td>
         </tr>
         <tr>
