@@ -3,13 +3,13 @@ jQuery(function( $ ){
     var speed = 300;
     
     function onAfterSlide( anchor, settings ){
-            if (currentSlide == indexMapLen - 1){
+            if (currentSlide >= indexMapLen - 1){
                 $('.next-slide').fadeOut(speed);
             }else{
                 $('.next-slide').fadeIn(speed);
             }
             
-            if (currentSlide == 0){
+            if (currentSlide <= 0){
                 $('.prev-slide').fadeOut(speed);
             }else{
                 $('.prev-slide').fadeIn(speed);
