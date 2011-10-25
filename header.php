@@ -28,9 +28,13 @@
 </head>
 
 <body>
+   
+    
     <div id="header">
         <div class="logo-container">
-            <a href="/#home"><img src="img/img_01.png"/></a>
+            <!-- <a href="/#home"> -->
+            <a href="/">
+                <img src="img/img_01.png"/></a>
         </div>
         <h1><a href="#home" title="В начало">Дизайн-студия</a></h1>
         <div id="vline">
@@ -60,5 +64,6 @@
 
     </div>
 
+    <div class="slide-nav prev-slide"></div>
     <div class="slide-nav next-slide"></div>
 

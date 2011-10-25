@@ -59,6 +59,12 @@ div#social{
     background: url('../img/img_06_2.png') no-repeat;
 }
 
+.prev-slide{
+    left:75px;
+    background: url('../img/img_06_2.png') no-repeat;
+    display: none;
+}
+
 
 p#social{
     float: left;
@@ -108,9 +114,9 @@ div#footer {
 
     padding: 10px;
     margin: 1px;
-    
+
     float: left;
-    
+
     border-right-style: solid; 
     border-right-width: 1px;
     padding-left: 130px;
