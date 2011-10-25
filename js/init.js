@@ -38,4 +38,10 @@ jQuery(function( $ ){
         duration:700,
         hash:true
     });
+    
+    $('.next-slide').click(function(){
+        
+    });
+    
+   
 });

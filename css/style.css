@@ -97,23 +97,43 @@ div#footer {
 
 }
 
+#content{
+    width: 2652px;
+    margin: auto;
+}
+
 .content-cell{
     width: 400px;
+    height: 380px;
 
+    padding: 10px;
+    margin: 1px;
+    
+    float: left;
+    
     border-right-style: solid; 
     border-right-width: 1px;
     padding-left: 130px;
     padding-right: 130px;
     vertical-align: top;
 }
+
 .has-text{
     padding-top: 15px;
 }
 .no-padding{
     padding: 0;
 }
-.main-container{
-    width: 2300px;
-    border: 0;
-    margin: auto;
+
+.foo-nav div{
+    width: 660px; 
+    height: 10px; 
+    border:1px solid red;
+    display: inline;
+}
+
+.invis-anch{
+    font-size: 1px;
+    height: 1px;
+    margin-left: -130px;
 }
