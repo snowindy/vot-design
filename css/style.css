@@ -11,13 +11,11 @@ div#header {
     height: 93px;
     width: 9000px;
     position: fixed;
-    z-index: 1;
 }
 
 #content{
     padding: 140px 0 90px;
     width: 2652px;
-    position:absolute;
 }
 
 
@@ -79,7 +77,6 @@ div#social{
     position:fixed;
     top:100px;
     cursor: pointer;
-    z-index: 2;
 }
 .next-slide{
     right:75px;
