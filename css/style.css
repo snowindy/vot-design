@@ -10,7 +10,33 @@ div#header {
     margin: auto;
     height: 93px;
     width: 9000px;
-    position: fixed; 
+    position: fixed;
+    z-index: 1;
+}
+
+#content{
+    padding: 140px 0 90px;
+    width: 2652px;
+    position:absolute;
+}
+
+
+.content-cell{
+    width: 400px;
+    height: 380px;
+
+    padding: 10px;
+    margin: 1px;
+
+    float: left;
+    
+    position: relative;
+
+    border-right-style: solid; 
+    border-right-width: 1px;
+    padding-left: 130px;
+    padding-right: 130px;
+    vertical-align: top;
 }
 
 /*
@@ -53,6 +79,7 @@ div#social{
     position:fixed;
     top:100px;
     cursor: pointer;
+    z-index: 2;
 }
 .next-slide{
     right:75px;
@@ -69,12 +96,6 @@ div#social{
 p#social{
     float: left;
     width: 400px;
-}
-
-
-div#content{
-    padding: 140px 0 90px;
-
 }
 
 p#action-bar a:before {
@@ -103,26 +124,6 @@ div#footer {
 
 }
 
-#content{
-    width: 2652px;
-    margin: auto;
-}
-
-.content-cell{
-    width: 400px;
-    height: 380px;
-
-    padding: 10px;
-    margin: 1px;
-
-    float: left;
-
-    border-right-style: solid; 
-    border-right-width: 1px;
-    padding-left: 130px;
-    padding-right: 130px;
-    vertical-align: top;
-}
 
 .has-text{
     padding-top: 15px;
@@ -141,5 +142,14 @@ div#footer {
 .invis-anch{
     font-size: 1px;
     height: 1px;
+}
+
+.invis-anch div{
+    width: 655px;
+    height: 1px;
+    border: 1px solid red;
+}
+
+.invis-anch,  .invis-anch div{
     margin-left: -130px;
 }

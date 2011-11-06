@@ -7,7 +7,7 @@ include("header.php");
 
 <div id="content">
     <div class="content-cell">
-        <a class="invis-anch" id="home" name="home"></a>
+        <a class="invis-anch" id="home" name="home"><div></div></a>
 
         <h2>Дизайн-студия</h2>
 
@@ -19,7 +19,7 @@ include("header.php");
         <p>&nbsp;</p>
     </div>
     <div class="content-cell">
-        <a class="invis-anch" id="service" name="service"></a>
+        <a class="invis-anch" id="service" name="service"><div></div></a>
 
         <h2>Услуги</h2>
 
@@ -59,7 +59,7 @@ include("header.php");
 
     </div>
     <div class="content-cell has-text">
-        <a class="invis-anch" id="contacts" name="contacts"></a>
+        <a class="invis-anch" id="contacts" name="contacts"><div></div></a>
 
         <h2>Контакты</h2>
 
@@ -69,7 +69,7 @@ include("header.php");
         <p><strong>tel.:</strong> 8 (903) 216-38-45</p>
     </div>
     <div class="content-cell has-text">
-        <a class="invis-anch" id="portfolio" name="portfolio"></a>
+        <a class="invis-anch" id="portfolio" name="portfolio"><div></div></a>
 
         <h2><a href="portfolio.php" title="Portfolio">Портфолио</a></h2>
 
