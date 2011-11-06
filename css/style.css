@@ -135,18 +135,3 @@ div#footer {
     border:1px solid red;
     display: inline;
 }
-
-.invis-anch{
-    font-size: 1px;
-    height: 1px;
-}
-
-.invis-anch div{
-    width: 655px;
-    height: 1px;
-    border: 1px solid red;
-}
-
-.invis-anch,  .invis-anch div{
-    margin-left: -130px;
-}
